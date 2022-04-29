@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+
+}
+
+body {
+    background-color: #4F6D7A;
+}
+
+.white-keys {
+    font-size: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+
+}
+
+
+.white-keys kbd {
+    width:50px;
+    height: 150px;
+    text-align: center;
+    line-height: 250px;
+    display: inline-block;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Hurricane', cursive;
+    border: 2px solid #202030;
+    border-radius: 5px;
+    color: #202030;
+
+}
+
+.black-keys {
+    font-size: 0;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+
+}
+
+.black-keys kbd {
+    width:30px;
+    height: 75px;
+    text-align: center;
+    line-height: 100px;
+    display: inline-block;
+    background-color: black;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Hurricane', cursive;
+    border: 2px solid #202030;
+    border-radius: 5px;
+    color: white;
+
+}
+
+#W {
+    position: relative;
+    right: 65px;
+}
+
+#E {
+    position: relative;
+    right: 45px;
+}
+
+#T {
+    position: relative;
+    left: 30px;
+}
+
+#Y {
+    position: relative;
+    left: 50px;
+}
+
+#U {
+    position: relative;
+    left: 70px;
+}
